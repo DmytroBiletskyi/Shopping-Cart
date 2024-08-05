@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #c0c0c0;
+}
+
+.total-price-label {
+  margin-right: 10px;
+}
+
+.cart-button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cart-button.selected, .order-list-button.selected{
+  background-color: #9d9d9d;
+  border-radius: 5px;
+}
+
+.header select {
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.order-list-button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
